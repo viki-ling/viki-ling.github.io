@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, viki&#39;s Blog">
+    <meta name="keywords" content="viki&#39;s Blog">
     <meta name="description" content="NO ENDLESS">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | viki&#39;s Blog</title>
+    <title>viki&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -312,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -445,7 +445,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-07-11
+                    2022-07-14
                 </div>
                 
 
@@ -466,19 +466,114 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+                <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">title: 第一次搭建博客</span><br><span class="line">date: </span><br><span class="line">author: viki</span><br><span class="line">img: </span><br><span class="line">top: true</span><br><span class="line">cover: true</span><br><span class="line">coverImg: </span><br><span class="line">password: </span><br><span class="line">toc: false</span><br><span class="line">mathjax: false</span><br><span class="line">summary: 使用git+hexo搭建个人博客</span><br><span class="line">categories: hexo</span><br><span class="line">tags:</span><br><span class="line">  - hexo</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h1><h2 id="一、工具下载"><a href="#一、工具下载" class="headerlink" title="一、工具下载"></a>一、工具下载</h2><h3 id="1-下载Git，并注册"><a href="#1-下载Git，并注册" class="headerlink" title="1.下载Git，并注册"></a>1.下载Git，并注册</h3><h3 id="2-官网下载node-js"><a href="#2-官网下载node-js" class="headerlink" title="2.官网下载node.js"></a>2.<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">官网</a>下载node.js</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cmd下查看</span><br><span class="line"></span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git --version</span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="3-在node-js下hexo下载"><a href="#3-在node-js下hexo下载" class="headerlink" title="3.在node.js下hexo下载"></a>3.在node.js下hexo下载</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli  -g</span><br><span class="line"></span><br><span class="line">检查是否下载成功</span><br><span class="line">hex -v</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="4-检查"><a href="#4-检查" class="headerlink" title="4.检查"></a>4.检查</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Windows+R cmd 输入</span><br><span class="line">git --version </span><br><span class="line">npm -v</span><br><span class="line">node -v</span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>出现版本号，即配置成功</p>
+<h3 id="5-hexo"><a href="#5-hexo" class="headerlink" title="5.hexo"></a>5.hexo</h3><p>确认配置好后下载 hexo</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></tbody></table></figure>
+
+<p>检查</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<h2 id="二、搭建仓库"><a href="#二、搭建仓库" class="headerlink" title="二、搭建仓库"></a>二、搭建仓库</h2><h3 id="1-gitub新建仓库"><a href="#1-gitub新建仓库" class="headerlink" title="1.gitub新建仓库"></a>1.gitub新建仓库</h3><p>仓库名：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;注册时的用户名&gt;.github.io</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="三、生成SSH-Keys"><a href="#三、生成SSH-Keys" class="headerlink" title="三、生成SSH Keys"></a>三、生成SSH Keys</h2><h3 id="1-进入一个D盘下的文件夹，右键Git-bash-here"><a href="#1-进入一个D盘下的文件夹，右键Git-bash-here" class="headerlink" title="1.进入一个D盘下的文件夹，右键Git bash here"></a>1.进入一个D盘下的文件夹，右键Git bash here</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sh</span><br><span class="line">#发现已经装过ssh，装git时自带</span><br><span class="line">ssh-keygen -t rsa -C "注册的邮箱"</span><br><span class="line">四次回车</span><br></pre></td></tr></tbody></table></figure>
+
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111211616.png" alt="image-20220711121123553"></p>
+<h3 id="2-以下即为四个回车生成出来的文件"><a href="#2-以下即为四个回车生成出来的文件" class="headerlink" title="2.以下即为四个回车生成出来的文件"></a>2.以下即为四个回车生成出来的文件</h3><p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111212095.png" alt="image-20220711121255054"></p>
+<h3 id="3-打开第二个文件-复制公钥"><a href="#3-打开第二个文件-复制公钥" class="headerlink" title="3.打开第二个文件,复制公钥"></a>3.打开第二个文件,复制公钥</h3><p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111213392.png" alt="image-20220711121344344"></p>
+<h3 id="4-git——sitting——SSH-and-GPG-keys——New-SSH-key"><a href="#4-git——sitting——SSH-and-GPG-keys——New-SSH-key" class="headerlink" title="4.git——sitting——SSH and GPG keys——New SSH key"></a>4.git——sitting——SSH and GPG keys——New SSH key</h3><p>名称随便起，钥匙填刚刚复制的</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111216030.png" alt="image-20220711121657949"></p>
+<p>以下显示 即为安装成功</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111219394.png" alt="image-20220711121928338"></p>
+<h3 id="5-检查是否成功"><a href="#5-检查是否成功" class="headerlink" title="5.检查是否成功"></a>5.检查是否成功</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">输入</span><br><span class="line">ssh -T git@gitub.com</span><br><span class="line">等待</span><br><span class="line">yes</span><br><span class="line">出现 Hi viki-ling！即为成功</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111232495.png" alt="image-20220711123238450"></p>
+<h2 id="四、生成本地博客内容"><a href="#四、生成本地博客内容" class="headerlink" title="四、生成本地博客内容"></a>四、生成本地博客内容</h2><h3 id="1-新建专门写blog的文件夹"><a href="#1-新建专门写blog的文件夹" class="headerlink" title="1.新建专门写blog的文件夹"></a>1.新建专门写blog的文件夹</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init #初始化hexo博客</span><br><span class="line">hexo g  #生成</span><br><span class="line">hexo s #打开本地服务器，静态生成本地页面</span><br></pre></td></tr></tbody></table></figure>
+
+<p>成功则生成以下文件</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111425220.png" alt="image-20220711142502156"></p>
+<p>浏览器即可直接访问本地页面</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111431916.png" alt="image-20220711143100710"></p>
+<h2 id="五、发布博客到互联网"><a href="#五、发布博客到互联网" class="headerlink" title="五、发布博客到互联网"></a>五、发布博客到互联网</h2><h3 id="1-修改blog文件夹下-config-yml文件"><a href="#1-修改blog文件夹下-config-yml文件" class="headerlink" title="1.修改blog文件夹下_config.yml文件"></a>1.修改blog文件夹下_config.yml文件</h3><p>改deploy下的 东西，注意 每一段都得空格一下 再输入</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111444265.png" alt="image-20220711144442192"></p>
+<h3 id="2-在blog下Git-bash"><a href="#2-在blog下Git-bash" class="headerlink" title="2.在blog下Git bash"></a>2.在blog下Git bash</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save  装工具</span><br><span class="line">hexo g 生成页面</span><br><span class="line">hexo d 本地文件上传git</span><br></pre></td></tr></tbody></table></figure>
+
+
+
+<p>bug ——hexo d 报错</p>
+<p>第一次尝试：</p>
+<p>用git pull –rebase origin master</p>
+<p>还是报错</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207111505126.png" alt="image-20220711150505072"></p>
+<p>第二次尝试</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email"12345678@qq.com"//自己的QQ即可</span><br><span class="line">git config --global user.name"XXX"//自己昵称即可</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+
+<p>报错原因：应该是默认git没有配置用户导致的</p>
+<p>以后可以参考的尝试</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Kevin_Carpricron/article/details/124069885">博客教程–Hexo d部署报错之spawn failed</a></p>
+<p>新建令牌</p>
+<p>Developer settings——Personal access tokens</p>
+<p>名字随便，权限最好全部都选上</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207112149025.png" alt="image-20220711214901798"></p>
+<p>我没有弹出ssh界面的登录框，所以这个链接没啥用</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207112250742.png" alt="image-20220711225049569"></p>
+<p>虽然但是，我的本地文件上传成功了</p>
+<p><img src="https://viki-ling.oss-cn-beijing.aliyuncs.com/img/learn/202207112221907.png" alt="image-20220711222124723"></p>
+<h2 id="七、总结"><a href="#七、总结" class="headerlink" title="七、总结"></a>七、总结</h2><h3 id="1-git常用命令"><a href="#1-git常用命令" class="headerlink" title="1.git常用命令"></a>1.git常用命令</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_53113396/article/details/124983800">20个最常用的git命令</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/halaoda/article/details/78661334">git命令大全</a></p>
+<ul>
+<li><h2 id="git-config"><a href="#git-config" class="headerlink" title="git config"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git config</a></h2><p>用法：git config –global user.name “[name]”</p>
+<p>用法：git config –global user.email “[email address]”</p>
+<p>该命令将分别设置提交代码的用户名和电子邮件地址。</p>
+</li>
+</ul>
+<h2 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git init</a></h2><p>  用法：git init [repository name]</p>
+<p>  该命令可用于创建一个新的代码库。</p>
+<h2 id="git-clone"><a href="#git-clone" class="headerlink" title="git clone"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git clone</a></h2><p>  用法：git clone [url]</p>
+<p>  该命令可用于通过指定的URL获取一个代码库。</p>
+<h2 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git add</a></h2><p>  用法：git add [file]</p>
+<p>  该命令可以将一个文件添加至stage(暂存区)。</p>
+<h2 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git commit</a></h2><p>  用法：git commit -m “[ Type in the commit message]”</p>
+<p>  该命令可以在版本历史记录中永久记录文件。</p>
+<h2 id="git-diff"><a href="#git-diff" class="headerlink" title="git diff"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git diff</a></h2><p>  用法：git diff</p>
+<p>  该命令可以显示尚未添加到stage的文件的变更。</p>
+<p>  用法：git diff –staged</p>
+<p>  该命令可以显示添加到stage的文件与当前最新版本之间的差异。</p>
+<p>  用法：git diff [first branch] [second branch]</p>
+<p>  该命令可以显示两个分支之间的差异。</p>
+<h2 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git reset</a></h2><p>  用法：git reset [file]</p>
+<p>  该命令将从stage中撤出指定的文件，但可以保留文件的内容。</p>
+<p>  用法：git reset [commit]</p>
+<p>  该命令可以撤销指定提交之后的所有提交，并在本地保留变更。</p>
+<h2 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git status</a></h2><p>  用法：git status</p>
+<p>  该命令将显示所有需要提交的文件。</p>
+<h2 id="git-rm"><a href="#git-rm" class="headerlink" title="git rm"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git rm</a></h2><p>  用法：git rm [file]</p>
+<p>  该命令将删除工作目录中的文件，并将删除动作添加到stage。、</p>
+<h2 id="git-log"><a href="#git-log" class="headerlink" title="git log"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git log</a></h2><p>  用法：git log</p>
+<p>  该命令可用于显示当前分支的版本历史记录。</p>
+<p>  用法：git log –follow[file]</p>
+<p>  该命令可用于显示某个文件的版本历史记录，包括文件的重命名。</p>
+<h2 id="git-show"><a href="#git-show" class="headerlink" title="git show"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git show</a></h2><p>  用法：git show [commit]</p>
+<p>  该命令经显示指定提交的元数据以及内容变更。</p>
+<h2 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247487551&amp;idx=1&amp;sn=18f64ba49f3f0f9d8be9d1fdef8857d9&amp;scene=21#wechat_redirect">git branch</a></h2><p>  用法：git branch</p>
+<p>  该命令将显示当前代码库中所有的本地分支。</p>
+<h3 id="2-hexo的一些常用命令"><a href="#2-hexo的一些常用命令" class="headerlink" title="2.hexo的一些常用命令"></a>2.hexo的一些常用命令</h3><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo s  启动本地服务器，用于预览主题。默认地址： http://localhost:4000/</span><br><span class="line">hexo new "笔记 二"  新建一篇标题为 笔记 二 的文章，因为标题里有空格，所以加上了引号。</span><br><span class="line">hexo new page aboutme  新建一个标题为 aboutme 的页面，默认链接地址为 主页地址/aboutme/</span><br><span class="line">hexo d  自动生成网站静态文件，并部署到设定的仓库。</span><br><span class="line">hexo clean  自动生成网站静态文件，并部署到设定的仓库。</span><br><span class="line">hexo g  生成网站静态文件到默认设置的 public 文件夹。</span><br><span class="line">hexo version  #查看Hexo的版本</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这里一般都用的缩写</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n ： hexo new</span><br><span class="line">hexo g ： hexo generate</span><br><span class="line">hexo s ： hexo server</span><br><span class="line">hexo d ： hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+
 
                 
             </div>
@@ -505,7 +600,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://viki-ling.github.io/2022/07/11/hello-world/">https://viki-ling.github.io/2022/07/11/hello-world/</a>
+                    <a href="https://viki-ling.github.io/2022/07/14/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://viki-ling.github.io/2022/07/14/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -710,9 +805,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/07/14/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
                     <div class="card-image">
@@ -730,9 +826,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-14
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-14
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -741,6 +837,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -748,7 +845,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2022/07/11/hello-world/">
@@ -778,7 +875,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
